@@ -1,0 +1,6 @@
+.videos{
+    display: flex;
+    flex-wrap: wrap; /*원래 크기대로 뒤죽박죽...*/
+    list-style: none; /*list에 기본적으로 가지고 있는 스타일 없애기*/
+    padding-left: 0; /*왼쪽 패딩값 없애기*/
+}

@@ -1,0 +1,37 @@
+.container{
+    width: 50%;
+    padding: 0.2em;
+}
+
+.video{
+    display: flex;
+    align-items: center; /*video에 있는 item들은 모두 가운데 정렬*/
+    border: 1px solid lightgray; /*item에 1px 두께 및 연한 회색의 테두리를 만들어준다.*/
+    cursor: pointer; /*video에 마우스가 들어오면 마우스 커서가 pointer로 바뀐다.*/
+    transition: transform 250ms ease-in; /*transform을 애니메이션 효과를 주는 것 - 250밀리세컨드만에 ease-in 되도록*/
+    box-shadow: 7px 15px 41px -31px rgba(87,61,67,1); /*box shadow generator에서 가져옴*/
+
+}
+
+.video:hover {
+    transform: scale(1.02); /*비디오에 마우스를 가져다 놓으면 item들이 1.02배로 커진다.*/
+}
+
+.thumbnail{
+    width: 40%; /*썸네일 이미지를 원래 크기에 비해 40%로*/
+    height: 100%;
+}
+
+.metadata{
+    margin-left: 0.2em;
+}
+
+.title, .channel {
+    font-size:  0.8rem;
+    margin: 0; /*p요소가 기본적으로 가지고 있는 마진을 없앤다.*/
+}
+
+.channel {
+    font-size: 0.6rem; /*유튜브 채널 이름의 크기를 줄인다. 0.9rem으로*/
+}
+
