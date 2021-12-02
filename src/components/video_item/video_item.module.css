@@ -1,9 +1,18 @@
 .container{
-    width: 50%;
     padding: 0.2em;
 }
 
+.container.grid{
+    width: 50%;
+}
+
+.container.list{
+    width: 100%;
+}
+
 .video{
+    width: 100%;
+    hwight: 100%;
     display: flex;
     align-items: center; /*video에 있는 item들은 모두 가운데 정렬*/
     border: 1px solid lightgray; /*item에 1px 두께 및 연한 회색의 테두리를 만들어준다.*/
